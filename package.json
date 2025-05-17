@@ -1,6 +1,6 @@
 {
     "private": true,
-    "type": "module",
+   
     "scripts": {
         "build": "vite build",
         "dev": "vite"
@@ -22,7 +22,9 @@
     },
     "dependencies": {
         "babylonjs": "^8.7.0",
+        "express": "^5.1.0",
         "three": "^0.176.0",
-        "trois": "^1.0.3"
+        "trois": "^1.0.3",
+        "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.52.0"
     }
 }
